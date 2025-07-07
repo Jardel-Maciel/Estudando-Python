@@ -1,0 +1,5 @@
+print("Ola, Mundo!")
+print(2+3)
+print(3*8)
+print('2'+'3')
+print('O resultado da soma 2 + 3 e igual a', 2 + 3)
