@@ -4,7 +4,7 @@ area = altura * largura
 
 litros_de_tinta = area / 2
 
-print(area)
-print(litros_de_tinta)
+print(f'Sua parede tem {altura} X {largura} e sua area é de {area}m²')
+print(f'Para pintar essa parede, você precisará de  {litros_de_tinta}l de tinta.')
 
 

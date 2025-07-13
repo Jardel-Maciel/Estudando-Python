@@ -6,7 +6,7 @@ e mostre seu novo preço, com 5% de desconto.
 
 preco = float(input('qual o valor do produto? '))
 desconto = 5 / 100
-valor_final = preco - (desconto * 100)
+valor_final = preco - (preco*5/100)
 
 print(f'O valor do produto é de R$ {preco:.2f}')
 
