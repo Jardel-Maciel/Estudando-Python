@@ -1,0 +1,5 @@
+nome = str(input('Digite seu nome completo: '))
+print(f'nome: {nome}')
+div_nome = nome.split()
+print(f'Primeiro: {div_nome[0]}')
+print(f'Último: {div_nome[3]}')

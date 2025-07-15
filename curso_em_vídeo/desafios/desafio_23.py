@@ -1,0 +1,5 @@
+num = int(input('Digite um número: '))
+print(f'unidade: {num} ')
+print(f'dezena: {num}')
+print(f'centena: {num}')
+print(f'milhar: {num}')
