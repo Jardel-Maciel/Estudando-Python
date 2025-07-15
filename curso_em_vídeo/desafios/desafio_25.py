@@ -1,3 +1,2 @@
-nome = str(input('Digite seu nome completo: '))
-print('Verificando se existe SILVA no seu nome...')
-print('SILVA' in nome)
+nome = str(input('Digite seu nome completo: ')).strip()
+print(f'Seu nome tem Silva? {'SILVA' in nome.upper()}')
