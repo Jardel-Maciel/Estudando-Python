@@ -5,9 +5,11 @@ print('-=-'*20)
 valor_casa = float(input('Qual o valor da casa? '))
 sal_comprador = float(input('Qual o salario do comprador? '))
 anos_pagamento = int(input('Em quantos anos sera paga? '))
+
 #tratamento dos dados
 meses = anos_pagamento * 12
 parcela = valor_casa / meses
+
 #condições aninhadas
 if parcela > sal_comprador * 0.30:    
     print('Infelizmente o imprestimo foi negado o valor da parcela ultrapassa 30% do seu salario.')
