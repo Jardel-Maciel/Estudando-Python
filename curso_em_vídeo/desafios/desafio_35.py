@@ -1,3 +1,4 @@
+
 r1 = float(input('Digite o valor a primeira reta: '))
 r2 = float(input('Digite o valor da segunda reta: '))
 r3 = float(input('Digite o valor da terceira reta: '))
