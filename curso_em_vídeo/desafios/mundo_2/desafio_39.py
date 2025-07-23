@@ -9,4 +9,4 @@ elif idade == 18:
     print('Já está na hora de se alistar ao serviço miçitar!')
 else:
     print('Já passou da hora de se  alistar ao serviço militar')
-    print(f'Já de passaram {idade - 18} ano do tempo certo para voccê se alistar. ')
+    print(f'Já se passaram {idade - 18} ano do tempo certo para voccê se alistar. ')
