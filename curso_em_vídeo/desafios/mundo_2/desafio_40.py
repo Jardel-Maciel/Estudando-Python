@@ -4,7 +4,7 @@ media = (nota1 + nota2) / 2
 if media < 5.0:
     print(f'A média do aluno é {media}')
     print('REPROVADO')
-elif media == 5.0 or media <= 6.9:
+elif media >= 5.0 and media < 7:
     print(f'A média do aluno é {media}')
     print('RECUPERAÇÃO')
 else:
