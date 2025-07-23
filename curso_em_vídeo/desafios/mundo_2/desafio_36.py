@@ -2,8 +2,8 @@
 print('-=-'*20)
 print(' '*15 + 'BEM VINDO AO BANCO MACIEL')
 print('-=-'*20)
-valor_casa = float(input('Qual o valor da casa? '))
-sal_comprador = float(input('Qual o salario do comprador? '))
+valor_casa = float(input('Qual o valor da casa? R$'))
+sal_comprador = float(input('Qual o salario do comprador? R$'))
 anos_pagamento = int(input('Em quantos anos sera paga? '))
 
 #tratamento dos dados
