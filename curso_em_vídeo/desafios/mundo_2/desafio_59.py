@@ -35,3 +35,4 @@ while menu:
 
     elif menu == 5:
         menu = False
+        print('Programa fechado com sucesso!')
